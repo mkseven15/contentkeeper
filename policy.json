@@ -1,0 +1,49 @@
+{
+  "Web": {
+    "DNS-Filter": true,
+    "Custom-Policies": {
+      "Allowlist": [
+        "https://www.google.com/search*",
+      ],
+      "Blocklist": [
+        "https://*roblox.com*",
+      ]
+    }
+  },
+  "Youtube": {
+    "Categories": {
+      "1": true,
+      "2": true,
+      "10": false,
+      "15": true,
+      "17": true,
+      "18": true,
+      "19": true,
+      "20": false,
+      "21": true,
+      "22": false,
+      "23": true,
+      "24": false,
+      "25": true,
+      "26": true,
+      "27": true,
+      "28": true,
+      "29": true,
+      "30": false,
+      "31": false,
+      "32": true,
+      "33": true,
+      "34": true,
+      "35": true,
+      "36": true,
+      "37": true,
+      "38": true,
+      "39": false,
+      "40": true,
+      "41": false,
+      "42": true,
+      "43": true,
+      "44": true
+    }
+  }
+}
