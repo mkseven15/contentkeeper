@@ -3,10 +3,11 @@
 "DNS-Filter": true,
 "Custom-Policies": {
 "Allowlist": [
-"https://www.google.com/search*"
+
 ],
 "Blocklist": [
-"https://roblox.com"
+"https://*roblox.com*",
+  "https://www.youtube.com/shorts/*",
 ]
 }
 },
