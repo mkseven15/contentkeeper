@@ -71,5 +71,17 @@
     "hide_subs": false,
     "hide_autoplay": true,
     "hide_annotations": true
+  },
+  "Detections": {
+    "suicide": true,
+    "proxy": true,
+    "porn": true,
+    "weapons": true,
+  },
+  "Confidence": {
+    "proxy": 10,
+    "suicide": 15,
+    "porn": 10,
+    "weapons": 15,
   }
 }
