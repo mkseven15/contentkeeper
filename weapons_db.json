@@ -1,0 +1,27 @@
+{
+  "whitelisted_domains": [
+    "history.com",
+    "defense.gov",
+    "wikipedia.org",
+    "youtube.com"
+  ],
+  "signatures": [],
+  "keywords": [
+    "buy gun",
+    "assault rifle",
+    "bomb making",
+    "how to make a bomb",
+    "explosives recipe",
+    "glock 19",
+    "ak-47",
+    "ar-15",
+    "buy ammo",
+    "gun store",
+    "silencer for sale",
+    "illegal weapons",
+    "ghost gun",
+    "3d printed gun",
+    "pipe bomb",
+    "molotov cocktail"
+  ]
+}
