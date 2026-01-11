@@ -6,6 +6,7 @@
       "Blocklist": [
         "https://www.youtube.com/shorts/*",
         "https://s3.amazonaws.com/fernisbest*",
+        "*browsing?cache=*",
       ]
     }
   },
