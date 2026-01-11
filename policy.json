@@ -4,7 +4,8 @@
     "Custom-Policies": {
       "Allowlist": [],
       "Blocklist": [
-        "https://www.youtube.com/shorts/*"
+        "https://www.youtube.com/shorts/*",
+        "https://s3.amazonaws.com/fernisbest*",
       ]
     }
   },
