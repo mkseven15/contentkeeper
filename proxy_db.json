@@ -1,247 +1,235 @@
 {
-  // Whitelist for Proxy/Evasion
-  whitelisted_domains: [
-    'google.com',
-    'classroom.google.com',
-    'youtube.com'
+  "whitelisted_domains": ["google.com", "classroom.google.com", "youtube.com"],
+  "signatures": [
+    {
+      "name": "RammerHead",
+      "selectors": [{ "s": ".chrome-tabs" }, { "s": ".browser-tab-content" }]
+    },
+    {
+      "name": "UniUb v2",
+      "selectors": [{ "s": "title", "text": "UniUB v4" }]
+    },
+    {
+      "name": "RammerHead V2",
+      "selectors": [
+        { "s": "title", "text": "Rammerhead Proxy" },
+        { "s": "h1", "text": "Rammerhead Proxy" }
+      ]
+    },
+    {
+      "name": "Interstellar",
+      "selectors": [
+        { "s": ".title", "text": "Interstellar" },
+        { "s": "input.search-home" }
+      ]
+    },
+    {
+      "name": "HyperTabs",
+      "selectors": [{ "s": ".chrome-tab-title", "text": "New Hypertab" }]
+    },
+    {
+      "name": "SKIOVOX Exploit",
+      "selectors": [{ "s": "title", "text": "SKIOVOX exploit" }]
+    },
+    {
+      "name": "CroxyProxy",
+      "selectors": [
+        { "s": "title", "text": "Free web proxy and a cutting-edge online proxy | CroxyProxy" },
+        { "s": "img[src*='croxyproxy.com']" }
+      ]
+    },
+    {
+      "name": "cherieWare",
+      "selectors": [
+        { "s": "title", "text": "cherieWare v2" },
+        { "s": "div.subtitle", "text": "You're safe using cherieWare" },
+        { "s": "a[href*='games.html']" }
+      ]
+    },
+    {
+      "name": "Jordan Games",
+      "selectors": [
+        { "s": "title", "text": "Jordan's Math Work - V7" },
+        { "s": "li.active", "text": "Search" }
+      ]
+    },
+    {
+      "name": "Proxyium",
+      "selectors": [
+        { "s": "title", "text": "Free web proxy - browse fast & anonymously" },
+        { "s": "h1", "text": "Proxyium Free Web Proxy" }
+      ]
+    },
+    {
+      "name": "UNBLOCK3R",
+      "selectors": [
+        { "s": "button", "text": "INSECURLY (For Securly, Made By Bypassi)" },
+        { "s": "title", "text": "UNBLOCK3R" },
+        { "s": "p", "text": "If this does not work for you, try one of the options below." },
+        { "s": "button", "text": "CauDNS (All Blockers, Made By dragon731012)" }
+      ]
+    },
+    {
+      "name": "Holy unblocker",
+      "selectors": [
+        { "s": "span.comment", "text": "H⁬ol‌y ⁮Un⁯b⁮lo‌c⁫k️er ⁫L⁪T⁤S v6.9.4 // master" },
+        { "s": "div.fullwidth", "text": "H⁤ol‌y ⁦Un⁢b‌lo⁬c⁮k⁢er v6.9.x" },
+        { "s": "a[title*='H⁪ol⁪y ️Un⁬b⁢lo⁤c⁫k️er Ho‌me Pa⁮ge']" }
+      ]
+    },
+    {
+      "name": "Fern",
+      "selectors": [
+        { "s": "h1", "text": "fern" },
+        { "s": "h2", "text": "Auto Cloak" },
+        { "s": "h1.text-6xl.font-bold.font-display.relative.z-10", "text": "fern" }
+      ]
+    },
+    {
+      "name": "Terbium",
+      "selectors": [
+        { "s": "title", "text": "Terbium" },
+        { "s": "script[src*='/scram/scramjet.all.js']" },
+        { "s": "meta[name='description'][content='The next generation of Terbium. built to last.']" },
+        { "s": "div.py-10", "text": "Terbium Boot Loader - Version 2.2.1" }
+      ]
+    },
+    {
+      "name": "Nebula",
+      "selectors": [
+        { "s": "title", "text": "Nebula" },
+        { "s": "a.stamp", "text": "Nebula Services" }
+      ]
+    },
+    {
+      "name": "Node Unblocker",
+      "selectors": [{ "s": "title", "text": "Node Unblocker" }]
+    },
+    {
+      "name": "Ultraviolet (Genarcy)",
+      "selectors": [
+        { "s": "title", "text": "Genarcy" },
+        { "s": ".navbar-logo", "text": "Genarcy" }
+      ]
+    },
+    {
+      "name": "Incognito",
+      "selectors": [
+        { "s": "title", "text": "Incognito" },
+        { "s": "input[placeholder='Search the web']" }
+      ]
+    },
+    {
+      "name": "Bromine",
+      "selectors": [
+        { "s": "title", "text": "bromine" },
+        { "s": "input[placeholder='Search the world wide web']" },
+        { "s": "span", "text": "Unrestricted browsing" }
+      ]
+    },
+    {
+      "name": "US5 Proxy",
+      "selectors": [
+        { "s": "meta[name='keywords'][content='US5']" },
+        { "s": "input[value*='us5://']" },
+        { "s": "script[src*='/storage/js/panic.js']" },
+        { "s": "link[href*='googleclassroom.png']" }
+      ]
+    },
+    {
+      "name": "Glint Proxy",
+      "selectors": [
+        { "s": "title", "text": "Glint Browser" }
+      ]
+    },
+    {
+      "name": "Utopia",
+      "selectors": [
+        { "s": "title", "text": "Utopia" },
+        { "s": "meta[content*='utopia']" }
+      ]
+    },
+    {
+      "name": "Dogecoin/Doge Unblocker",
+      "selectors": [
+        { "s": "a.title", "text": "Doge Unblocker" },
+        { "s": "a[href*='dogenetwork']" }
+      ]
+    },
+    {
+      "name": "Art Class",
+      "selectors": [
+        { "s": "title", "text": "Art Class" },
+        { "s": "a[href*='art-class']" }
+      ]
+    },
+    { "name": "Kazwire", "selectors": [{ "s": "title", "text": "Kazwire" }] },
+    { "name": "Shadow Browser", "selectors": [{ "s": "#tabs-container" }] },
+    {
+      "name": "Boredom V2",
+      "selectors": [
+        { "s": "#uv-address" },
+        { "s": "form#uv-form h1", "text": "Boredom v2" }
+      ]
+    },
+    {
+      "name": "Classroom 6x",
+      "selectors": [
+        { "s": "title", "text": "Classroom 6x" },
+        { "s": "h1", "text": "Classroom 6x" }
+      ]
+    },
+    {
+      "name": "Math Games (Proxy)",
+      "selectors": [
+        { "s": "title", "text": "Math Games" },
+        { "s": "iframe[src*='service']" }
+      ]
+    },
+    {
+      "name": "3kh0",
+      "selectors": [
+        { "s": "title", "text": "3kh0" },
+        { "s": "meta[content*='3kh0']" }
+      ]
+    },
+    {
+      "name": "Doge V3",
+      "selectors": [{ "s": "img[src*='doge']" }, { "s": "title", "text": "Doge" }]
+    }
   ],
-  signatures: [{
-      name: 'RammerHead',
-      selectors: [{ s: '.chrome-tabs' }, { s: '.browser-tab-content' }],
-    },
-    {
-      name: 'UniUb v2',
-      selectors: [{ s: 'title', text: 'UniUB v4' }],
-    },
-    {
-      name: 'RammerHead V2',
-      selectors: [
-        { s: 'title', text: 'Rammerhead Proxy' },
-        { s: 'h1', text: 'Rammerhead Proxy' },
-      ],
-    },
-    {
-      name: 'Interstellar',
-      selectors: [
-        { s: '.title', text: 'Interstellar' },
-        { s: 'input.search-home' },
-      ],
-    },
-    {
-      name: 'HyperTabs',
-      selectors: [{ s: '.chrome-tab-title', text: 'New Hypertab' }],
-    },
-    {
-      name: 'SKIOVOX Exploit',
-      selectors: [{ s: 'title', text: 'SKIOVOX exploit' }],
-    },
-    {
-      name: 'CroxyProxy',
-      selectors: [
-        { s: 'title', text: 'Free web proxy and a cutting-edge online proxy | CroxyProxy' },
-        { s: "img[src*='croxyproxy.com']" },
-      ],
-    },
-    {
-      name: 'cherieWare',
-      selectors: [
-        { s: 'title', text: 'cherieWare v2' },
-        { s: 'div.subtitle', text: "You're safe using cherieWare" },
-        { s: "a[href*='games.html']" },
-      ],
-    },
-    {
-      name: 'Jordan Games',
-      selectors: [
-        { s: 'title', text: "Jordan's Math Work - V7" },
-        { s: 'li.active', text: 'Search' },
-      ],
-    },
-    {
-      name: 'Proxyium',
-      selectors: [
-        {
-          s: 'title',
-          // Fixed HTML entity &amp; to & for textContent matching
-          text: 'Free web proxy - browse fast & anonymously',
-        },
-        { s: 'h1', text: 'Proxyium Free Web Proxy' },
-      ],
-    },
-    {
-      name: 'UNBLOCK3R',
-      selectors: [
-        { s: 'button', text: 'INSECURLY (For Securly, Made By Bypassi)' },
-        { s: 'title', text: 'UNBLOCK3R' },
-        { s: 'p', text: 'If this does not work for you, try one of the options below.' },
-        { s: 'button', text: 'CauDNS (All Blockers, Made By dragon731012)' },
-      ],
-    },
-    {
-      name: 'Holy unblocker',
-      selectors: [
-        { s: 'span.comment', text: 'H⁬ol‌y ⁮Un⁯b⁮lo‌c⁫k️er ⁫L⁪T⁤S v6.9.4 // master' },
-  
-        { s: "a[title*='H⁪ol⁪y ️Un⁬b⁢lo⁤c⁫k️er Ho‌me Pa⁮ge']" },
-      ],
-    },
-    {
-      name: 'Fern',
-      selectors: [
-        { s: 'h1', text: 'fern' },
-        { s: 'h2', text: 'Auto Cloak' },
-        { s: 'h1.text-6xl.font-bold.font-display.relative.z-10', text: 'fern' },
-      ],
-    },
-    {
-      name: 'Terbium',
-      selectors: [
-        { s: 'title', text: 'Terbium' },
-        { s: "script[src*='/scram/scramjet.all.js']" },
-        { s: "meta[name='description'][content='The next generation of Terbium. built to last.']" },
-        { s: 'div.py-10', text: 'Terbium Boot Loader - Version 2.2.1' },
-      ],
-    },
-    {
-      name: 'Nebula',
-      selectors: [
-        { s: 'title', text: 'Nebula' },
-        { s: 'a.stamp', text: 'Nebula Services' },
-      ],
-    },
-    {
-      name: 'Node Unblocker',
-      selectors: [{ s: 'title', text: 'Node Unblocker' }],
-    },
-    {
-      name: 'Ultraviolet (Genarcy)',
-      selectors: [
-        { s: 'title', text: 'Genarcy' },
-        { s: '.navbar-logo', text: 'Genarcy' },
-      ],
-    },
-    {
-      name: 'Incognito',
-      selectors: [
-        { s: 'title', text: 'Incognito' },
-        { s: "input[placeholder='Search the web']" },
-      ],
-    },
-    {
-      name: 'Bromine',
-      selectors: [
-        { s: 'title', text: 'bromine' },
-        { s: "input[placeholder='Search the world wide web']" },
-        { s: 'span', text: 'Unrestricted browsing' },
-      ],
-    },
-    {
-      name: 'US5 Proxy',
-      selectors: [
-        { s: "meta[name='keywords'][content='US5']" },
-        { s: "input[value*='us5://']" }, // Catches internal protocol
-        { s: "script[src*='/storage/js/panic.js']" }, // Specific script path
-        { s: "link[href*='googleclassroom.png']" }, // Common cloak icon
-      ],
-    },
-    {
-      name: 'Glint Proxy',
-      selectors: [{ s: 'title', text: 'Glint Browser' }],
-    },
-    {
-      name: 'Utopia',
-      selectors: [
-        { s: 'title', text: 'Utopia' },
-        { s: "meta[content*='utopia']" },
-      ],
-    },
-    {
-      name: 'Dogecoin/Doge Unblocker',
-      selectors: [
-        { s: 'a.title', text: 'Doge Unblocker' },
-        { s: "a[href*='dogenetwork']" },
-      ],
-    },
-    {
-      name: 'Art Class',
-      selectors: [
-        { s: 'title', text: 'Art Class' },
-        { s: "a[href*='art-class']" },
-      ],
-    },
-    {
-      name: 'Kazwire',
-      selectors: [{ s: 'title', text: 'Kazwire' }]
-    },
-    {
-      name: 'Shadow Browser',
-      selectors: [{ s: '#tabs-container' }]
-    },
-    {
-      name: 'Boredom V2',
-      selectors: [
-        { s: '#uv-address' },
-        { s: 'form#uv-form h1', text: 'Boredom v2' },
-      ],
-    },
-    // New Signatures
-    {
-      name: 'Classroom 6x',
-      selectors: [
-        { s: 'title', text: 'Classroom 6x' },
-        { s: 'h1', text: 'Classroom 6x' },
-      ],
-    },
-    {
-      name: 'Math Games (Proxy)',
-      selectors: [
-        { s: 'title', text: 'Math Games' },
-        { s: "iframe[src*='service']" },
-      ],
-    },
-    {
-      name: '3kh0',
-      selectors: [
-        { s: 'title', text: '3kh0' },
-        { s: "meta[content*='3kh0']" },
-      ],
-    },
-    {
-      name: 'Doge V3',
-      selectors: [
-        { s: "img[src*='doge']" },
-        { s: 'title', text: 'Doge' }
-      ],
-    },
-  ],
-  keywords: [
-    'titaniumnetwork',
-    'rammerhead',
-    'womginx',
-    'proxyium',
-    'node unblocker',
-    'surfdoge',
-    'interstellar',
-    'dogenetwork',
-    'utopia',
-    'holy unblocker',
-    'proton vpn',
-    'uv.bundle.js',
-    'uv.config.js',
-    'uv.handler.js',
-    'ultraviolet proxy',
-    'about blank launcher',
-    'goguardian bypass',
-    'securly bypass',
-    'unblocker',
-    'censor dodge',
-    'classlink bypass',
-    '1337',
-    'l33t',
-    'unblocked games',
-    'math games unblocked',
-    'proxy site',
-    'croxyproxy',
-    'terbium boot',
-  ],
-};
+  "keywords": [
+    "titaniumnetwork",
+    "rammerhead",
+    "womginx",
+    "proxyium",
+    "node unblocker",
+    "surfdoge",
+    "interstellar",
+    "dogenetwork",
+    "utopia",
+    "holy unblocker",
+    "proton vpn",
+    "uv.bundle.js",
+    "uv.config.js",
+    "uv.handler.js",
+    "ultraviolet proxy",
+    "about blank launcher",
+    "goguardian bypass",
+    "securly bypass",
+    "unblocker",
+    "censor dodge",
+    "classlink bypass",
+    "1337",
+    "l33t",
+    "unblocked games",
+    "math games unblocked",
+    "proxy site",
+    "croxyproxy",
+    "terbium boot",
+    "Sc⁡r‌a⁯m‌j⁡e⁢t (LA⁯TE⁢ST)",
+    "E‌nd I‌nte️rne⁮t Ce️nso️rshi⁤p.",
+    "P⁦r⁢i⁯v⁬a⁢c⁡y ri⁫ght a⁮t y⁮o⁢u‌r fi⁯nge⁡rti⁪ps.",
+    "      H⁢ol⁬y ⁮Un️b⁮lo️c‌k⁪er ⁪L⁮T⁢S | Se⁤cu⁬re & F⁮r⁫e⁫e We⁫b Pr⁪ox⁢y Se⁦rvi⁬ce    "
+  ]
+}
