@@ -1,0 +1,43 @@
+{
+  "whitelisted_domains": [],
+  "keywords": [
+    "porn",
+    "hentai",
+    "xxx",
+    "sex video",
+    "nude",
+    "naked",
+    "adult only",
+    "xvideos",
+    "pornhub",
+    "xhamster",
+    "brazzers",
+    "milf",
+    "fuck",
+    "hardcore sex",
+    "erotic",
+    "nsfw",
+    "rule34",
+    "camgirl",
+    "live sex",
+    "creampie",
+    "blowjob",
+    "hentai",
+    "порно",
+    "хентай",
+    "hentailib",
+    "Сайт предназначен для лиц старше 18 лет",
+    "18+ only",
+    "pornograpgy"
+  ],
+  "signatures": [
+    {
+      "name": "Adult Meta",
+      "selectors": [
+        { "s": "meta[name='rating'][content='RTA-5042-1996-1400-1577-RTA']" }
+      ]
+    },
+    { "name": "PornHub", "selectors": [{ "s": "body.pornhub-frontpage" }] },
+    { "name": "Hentailib", "selectors": [{ "s": "body.app.page.lq_u" }] }
+  ]
+}
