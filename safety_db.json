@@ -1,1 +1,33 @@
-
+{
+  "critical_keywords": [
+    "i want to die",
+    "i want to kill myself",
+    "suicide",
+    "suicidal",
+    "end my life",
+    "cutting myself",
+    "self harm",
+    "how to overdose",
+    "kill me",
+    "better off dead",
+    "hate my life",
+    "tired of living",
+    "ways to die",
+    "hanging myself",
+    "jump off a bridge",
+    "worthless",
+    "nobody loves me",
+    "want to disappear",
+    "I'm bored of life"
+  ],
+  "whitelisted_domains": [
+    "988lifeline.org",
+    "trevorproject.org",
+    "crisistextline.org",
+    "samaritans.org",
+    "nimh.nih.gov",
+    "google.com",
+    "bing.com",
+    "github.com"
+  ]
+}
