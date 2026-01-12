@@ -78,7 +78,7 @@
         { "s": "title", "text": "H⁯ol⁤y ⁫Un‌b️lo⁯c⁦k️er ‌L⁮T⁡S | We️b Pr️ox⁪ie⁦s"},
         { "s": "script[src*='/scram/scramjet.all.js']" },
         { "s": "div[aria-label*='Command Line Instructions']" },
-        { "s": "span.url", "text": "https://github.com/QuiteAFancyEmerald/Holy-Un⁬bl⁤o⁮c⁮k⁮er.git" },
+        { "s": "span.url", "text": "https://github.com/QuiteAFancyEmerald/Holy-Un⁬bl⁤o⁮c⁮k⁮er.git" }
       ]
     },
     {
