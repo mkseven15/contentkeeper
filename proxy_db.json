@@ -10,6 +10,12 @@
       "selectors": [{ "s": "title", "text": "UniUB v4" }]
     },
     {
+      "name": "Noah Tutoring",
+      "selectors": [{ "s": "title", "text": "LAUSD Schoology Login" },
+      { "s": "img[src*='https://cdn.jsdelivr.net/gh/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/images/143.jpg']" }
+      ]
+    },
+    {
       "name": "RammerHead V2",
       "selectors": [
         { "s": "title", "text": "Rammerhead Proxy" },
