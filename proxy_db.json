@@ -116,6 +116,10 @@
       "selectors": [{ "s": "title", "text": "Node Unblocker" }]
     },
     {
+      "name": "Space",
+      "selectors": [{ "s": "input[id='gointospace2']" }, { "s":"title", "text":"Space" }]
+    },
+    {
       "name": "Ultraviolet (Genarcy)",
       "selectors": [
         { "s": "title", "text": "Genarcy" },
