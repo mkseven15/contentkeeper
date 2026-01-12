@@ -74,7 +74,9 @@
       "selectors": [
         { "s": "span.comment", "text": "H⁬ol‌y ⁮Un⁯b⁮lo‌c⁫k️er ⁫L⁪T⁤S v6.9.4 // master" },
         { "s": "div.fullwidth", "text": "H⁤ol‌y ⁦Un⁢b‌lo⁬c⁮k⁢er v6.9.x" },
-        { "s": "a[title*='H⁪ol⁪y ️Un⁬b⁢lo⁤c⁫k️er Ho‌me Pa⁮ge']" }
+        { "s": "a[title*='H⁯ol⁤y ⁫Un‌b️lo⁯c⁦k️er ‌L⁮T⁡S | We️b Pr️ox⁪ie⁦s']" },
+        { "s": "title", "text": "H⁯ol⁤y ⁫Un‌b️lo⁯c⁦k️er ‌L⁮T⁡S | We️b Pr️ox⁪ie⁦s"},
+        { "s": "script[src*='/scram/scramjet.all.js']" },
       ]
     },
     {
