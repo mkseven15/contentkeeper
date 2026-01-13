@@ -1,5 +1,5 @@
 {
-  "whitelisted_domains": ["google.com", "classroom.google.com", "youtube.com", "mkseven15.github.io", "github.com"],
+  "whitelisted_domains": ["google.com", "classroom.google.com", "youtube.com", "mkseven15.github.io", "github.com", "instructure.com"],
   "signatures": [
     {
       "name": "RammerHead",
