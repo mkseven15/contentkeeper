@@ -1,5 +1,5 @@
 {
-  "whitelisted_domains": ["google.com", "classroom.google.com", "youtube.com", "mkseven15.github.io"],
+  "whitelisted_domains": ["google.com", "classroom.google.com", "youtube.com", "mkseven15.github.io", "github.com"],
   "signatures": [
     {
       "name": "RammerHead",
@@ -117,7 +117,10 @@
     },
     {
       "name": "Space",
-      "selectors": [{ "s": "input[id='gointospace2']" }, { "s":"title", "text":"Space" }]
+      "selectors": [{ "s": "input[id='gointospace2']" }, { "s":"title", "text":"Space" },
+        { "s": "button.btn", "text": "Get Started" },
+        { "s": "input[placeholder='Enter search or web address']" }
+      ]
     },
     {
       "name": "Ultraviolet (Genarcy)",
