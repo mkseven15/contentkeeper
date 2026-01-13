@@ -2,7 +2,9 @@
   "Web": {
     "DNS-Filter": true,
     "Custom-Policies": {
-      "Allowlist": [],
+      "Allowlist": [
+        "github.com", "canvadocs.instructure.com", "instructure.com", "docs.google.com", "classlink.com"
+      ],
       "Blocklist": [
         "https://www.youtube.com/shorts/*",
         "https://s3.amazonaws.com/fernisbest*",
