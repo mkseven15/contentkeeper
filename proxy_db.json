@@ -1,5 +1,5 @@
 {
-  "whitelisted_domains": ["google.com", "classroom.google.com", "youtube.com", "mkseven15.github.io", "github.com", "canvadocs.instructure.com", "instructure.com", "docs.google.com", "classlink.com"],
+  "whitelisted_domains": ["google.com", "outlook.office.com", "classroom.google.com", "youtube.com", "mkseven15.github.io", "github.com", "canvadocs.instructure.com", "instructure.com", "docs.google.com", "classlink.com"],
   "signatures": [
     {
       "name": "RammerHead",
